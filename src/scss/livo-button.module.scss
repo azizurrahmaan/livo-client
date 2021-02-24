@@ -1,0 +1,38 @@
+@import './livo-colors.scss'; 
+
+.iconButton{
+    padding: 0px;
+    padding-top: 7px;
+    border-radius: 100%;
+    width: 40px;
+}
+
+.hasSpacing{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.count{
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    width: 23px;
+    color: $livo-white;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    background-color: $livo-danger;
+}
+
+.sub{
+    font-weight: bold;
+    font-size: xx-small;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+.hasImage{
+    background-color: $livo-transparent;
+    border: none;
+    height: 38px;
+}

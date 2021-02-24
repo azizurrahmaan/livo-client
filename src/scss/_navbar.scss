@@ -1,0 +1,34 @@
+@import './livo-colors.scss'; 
+
+.navbar{
+    .navbar-brand{
+        padding: 0px 10px;
+        .hamburger{
+            color: $livo-dark;
+            padding-top: 2px;
+            svg{
+                font-size: 3rem !important;
+            }
+        }
+    }
+    .navbar-menu{
+        @media screen and (max-width: 768px){
+            padding: 0;
+        }
+    }
+    .navbar-end{
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+        @media screen and (max-width: 768px){
+            transform: scale(0.8);
+            right: -27px;
+        }
+    }
+    .navbar-item{
+        img {
+            max-height: 2.5rem;
+        }
+    }
+}

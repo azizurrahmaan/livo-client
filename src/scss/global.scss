@@ -1,0 +1,29 @@
+@import './_colors.scss';
+@import './_menu.scss';
+@import './_navbar.scss';
+@import './_button.scss';
+@import 'bulma/bulma';
+
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+    background-color: $livo-light;
+}
+a{
+    font-weight: 500;
+}
+.page{
+    margin-left: 200px;
+    @media screen and (max-width: 768px){
+        margin-left: 0;
+    }
+}
+
+::placeholder {
+    font-weight: bold;
+    color: $livo-gray;
+    opacity: 1;
+}
+  

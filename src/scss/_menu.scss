@@ -1,0 +1,67 @@
+@import './livo-colors.scss'; 
+
+.sidebar-menu{
+    width: 175px;
+    position: absolute;
+    @media screen and (max-width: 768px){
+        width: 100%;
+        display: none !important;
+    }
+}
+
+.menu{
+    background-color: $livo-dark;
+    height: calc(100vh - 56px);
+    overflow: auto;
+    padding-top: 10px;
+    .menu-list{
+        li{
+            a{
+                text-align: center;
+                font-size: 1.2rem;
+                svg{
+                    font-size: 3.1rem !important;
+                    @media screen and (max-width: 768px){
+                        font-size: 4.5rem !important;
+                    }
+                }
+                span{
+                    position: relative;
+                    .count{
+                        position: absolute;
+                        top: -28px;
+                        right: 0;
+                        width: 25px;
+                        border-radius: 3rem;
+                        font-size: initial;
+                        background-color: $livo-danger;
+                        @media screen and (max-width: 768px){
+                            top: initial;
+                            width: 26px;
+                            padding: 1px;
+                        }
+                    }
+                }
+                &:hover{
+                    .count{
+                        color: $livo-white !important;
+                    }
+                }
+                @media screen and (max-width: 768px){
+                    font-size: 1.5rem;
+                }
+            }
+            @media screen and (max-width: 768px){
+                width: 50%;
+                display: inline-block;
+            }
+        }
+    }
+    .menu-bottom{
+        padding-top: 60px;
+        margin-bottom: 15px;
+    }
+    @media screen and (max-width: 768px){
+        padding-top: 60px;
+    }
+}
