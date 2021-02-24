@@ -8,7 +8,44 @@
             padding-top: 2px;
             svg{
                 font-size: 3rem !important;
+                @media screen and (max-width: 390px){
+                    font-size: 2rem !important;
+                }
+                @media screen and (max-width: 335px){
+                    font-size: 1.5rem !important;
+                }
             }
+            @media screen and (max-width: 390px){
+                padding-top: 10px;
+            }
+            @media screen and (max-width: 335px){
+                padding-top: 15px;
+            }
+        }
+        a{
+            img{
+                @media screen and (max-width: 390px){
+                    width: 4.5rem;
+                }
+                @media screen and (max-width: 365px){
+                    width: 3.5rem;
+                }
+                @media screen and (max-width: 335px){
+                    width: 2.5rem;
+                }
+                @media screen and (max-width: 335px){
+                    width: 2.5rem;
+                }
+                @media screen and (max-width: 320px){
+                    width: 2rem;
+                }
+            }
+            @media screen and (max-width: 320px){
+                padding-left: 2px;
+            }
+        }
+        @media screen and (max-width: 320px){
+            padding: 0 5px;
         }
     }
     .navbar-menu{
