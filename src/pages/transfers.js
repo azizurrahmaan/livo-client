@@ -15,7 +15,7 @@ const Transfer = () => {
           </p>
         </div>
       </section>
-      <div className="container">
+      <div className="container p-5">
         <div className="columns">
           <div className="column is-full has-text-centered">
             <img src="/under-construction.svg" width="300" alt="under-construction"/>

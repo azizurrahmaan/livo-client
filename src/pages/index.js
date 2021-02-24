@@ -16,7 +16,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <div className="container">
+      <div className="container p-5">
         <form action="">
           <div className="columns">
             <div className="column is-full-mobile is-two-thirds-desktop">
