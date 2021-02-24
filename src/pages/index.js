@@ -27,31 +27,31 @@ const Home = () => {
               </div>
               <div className="columns">
                 <div className="column is-full-mobile is-two-thirds-desktop">
-                  <input class="input is-rounded" type="email" placeholder="Email"/>
+                  <input className="input is-rounded" type="email" placeholder="Email"/>
                 </div>
                 <div className="column">
-                  <input class="input is-rounded" type="text" placeholder="Brand Name"/>
+                  <input className="input is-rounded" type="text" placeholder="Brand Name"/>
                 </div>
               </div>
               <div className="columns">
                 <div className="column is-full-mobile is-two-thirds-desktop">
-                  <input class="input is-rounded" type="text" placeholder="Name"/>
+                  <input className="input is-rounded" type="text" placeholder="Name"/>
                 </div>
                 <div className="column">
-                  <input class="input is-rounded" type="number" placeholder="Phone"/>
+                  <input className="input is-rounded" type="number" placeholder="Phone"/>
                 </div>
               </div>
               <div className="columns">
                 <div className="column is-full-mobile is-two-thirds-desktop">
-                  <input class="input is-rounded" type="text" placeholder="RIB"/>
+                  <input className="input is-rounded" type="text" placeholder="RIB"/>
                 </div>
                 <div className="column">
-                  <input class="input is-rounded" type="text" placeholder="Bank Name"/>
+                  <input className="input is-rounded" type="text" placeholder="Bank Name"/>
                 </div>
               </div>
               <div className="columns">
                 <div className="column is-half is-full-mobile">
-                  <div class="select is-rounded is-fullwidth">
+                  <div className="select is-rounded is-fullwidth">
                     <select>
                       <option>City</option>
                       <option>Casabalanca</option>
@@ -59,7 +59,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="column is-half is-full-mobile">
-                  <div class="select is-rounded is-fullwidth">
+                  <div className="select is-rounded is-fullwidth">
                     <select>
                       <option>Zone</option>
                       <option>Ben M'sick</option>
