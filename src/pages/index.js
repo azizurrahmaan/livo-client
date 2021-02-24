@@ -10,7 +10,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="hero">
-        <div className="hero-body pt-4">
+        <div className="hero-body py-4">
           <p className="title has-text-weight-bold">
             Account
           </p>
@@ -19,10 +19,10 @@ const Home = () => {
       <div className="container p-5">
         <form action="">
           <div className="columns">
-            <div className="column is-full-mobile is-two-thirds-desktop">
+            <div className="column is-full-mobile is-three-fifths-desktop">
               <div className="columns">
                 <div className="column is-full-mobile is-full has-text-centered ">
-                    <img width="150" src="/profile-pic.png" alt="profile-pic"/>
+                    <img style={{width:'125px'}} src="/profile-pic.png" alt="profile-pic"/>
                 </div>
               </div>
               <div className="columns">
